@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600;800&family=Roboto+Condensed:ital,wght@0,700;1,700&family=Roboto:ital,wght@0,300;0,700;1,700&display=swap"
+        rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Style/style.css">
+    <title>Cadastro</title>
+</head>
+
+<body>
+
+    <header>
+        <div id="title">
+            <h2>Nome.</h2>
+        </div>
+
+        <nav><ul>
+            <li >
+                <a href="#">Quem Somos</a>
+            </li>
+            <li >
+                <a href="#">Serviços</a>
+            </li>
+            <li >
+                <a href="#">Contatos</a>
+            </li>
+            <li >
+                <a href="#" id="Inscreva-se-btn">Ja possiu uma conta?</a>
+            </li>
+        </ul></nav>
+    </header>
+    <main id="cadastro">
+        <section>
+                <h1 class="titulo-cadastro">CADASTRO</h1>
+                <form action="cadastro.php" method="POST" class="form-container">
+                    <div class="input-single"> 
+                        <input type="text" name="nome" placeholder="Nome">
+                    </div>
+
+                    <div class="input-single"> 
+                        <input type="text" name="email" placeholder="Email">
+                    </div>
+
+                    <div class="input-single"> 
+                        <input type="text" name="senha" placeholder="Senha">
+                    </div>
+
+                    <div class="btn"><input type="submit" value="Cadastrar"></div>
+
+                    <span><p>Ao clicar você concorda com os</p> <a href="#" class="link-termos">termos de politica de privacidade.</a></span>
+                </form>
+        </section>
+    </main>
+
+    <footer>
+        <p class="footer-text">Copyright 2023 all rights reservd</p>
+    </footer>
+</body>
+
+</html>
